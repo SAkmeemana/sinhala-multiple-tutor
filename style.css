@@ -1,0 +1,206 @@
+*{
+    font-family: sans-serif;
+}
+html
+{
+    height:100%;
+                  background-image: url("https://media.baamboozle.com/uploads/images/463997/1633582221_14075_gif-url.gif");
+}
+.gametitle{
+                text-align: center;
+                 font-size: 70px;
+             color: #e63c15;
+           margin-top: 50px;
+}
+.player{ 
+             border-radius:5px;  
+      position: relative;
+       margin: 50px auto;
+        width: 300px;
+}
+#board{
+    padding:90px;
+    background: linear-gradient(to right, #83a8e3, 
+    #1e5aad, #6579eb, #74d2ee);
+          width: 500px;
+         height: 380px;
+       border-radius:5px;  
+          box-shadow: 0px 5px 5px #134b80;
+           -moz-box-shadow: 0px 5px 5px #134b80;
+            -webkit-box-shadow: 0px 5px 5px #134b80;
+            position: relative;
+              margin: 50px auto;
+}
+#right{
+              padding:10px;
+              background: linear-gradient(to right, #65e75c, 
+              #1ead61, #64ed52, #27e28b);
+                     width: 70px;
+                     position: absolute;
+                 margin: 20px 200px;
+            text-align: center;
+                 color:white;
+                border-radius: 5px;
+              box-shadow: 0px 5px 5px #133512;
+           -moz-box-shadow: 0px 5px 5px #133512;
+               -webkit-box-shadow: 0px 5px 5px #133512;
+               display:none;
+}
+#wrong{
+                padding:10px;
+                background: linear-gradient(to right, #e45959, 
+                #e50c29, #d10404, #d53535);
+              width: 100px;
+                 position: absolute;    
+              margin: 3px 200px;
+         text-align: center;
+       color:white;
+    border-radius: 5px;
+               box-shadow: 0px 5px 5px #45150c;
+                   -moz-box-shadow: 0px 5px 5px #45150c;
+                         -webkit-box-shadow: 0px 5px 5px #45150c;     
+                               display:none;
+}
+#score{
+                       padding: 20px;
+                       background: linear-gradient(to right, #cada51, 
+                       #d8d028, #e0d95d, #e7f250);
+                         width:70px;
+                      text-align:center;
+                 position: absolute;
+                margin: 0px 400px;
+           border-radius: 5px;
+            box-shadow: 0px 5px 5px grey;
+         -moz-box-shadow: 0px 5px 5px grey;
+                 -webkit-box-shadow: 0px 5px 5px grey;
+}
+#problem{
+                   padding:5px;
+                        background-color:#4d74df;
+             width: 400px;
+                        height: 60px;
+                       text-align:center;
+                  position: absolute;
+                   margin: 70px 40px;
+                  font-size: 40px;
+                  line-height: 60px;
+                       color:white;
+                 Border-radius: 5px;
+               box-shadow: 0px 5px 5px #153d93;
+      -moz-box-shadow: 0px 5px 5px #153d93;
+    -webkit-box-shadow: 0px 5px 5px #153d93;
+}
+#instruction{
+    padding:5px;
+    background: linear-gradient(to right, #03f7a2, 
+    #0fd461, #069f1a, #28eca7);
+    width: 400px;
+    height: 30px;    
+    text-align:center;
+    line-height: 30px;
+    position: absolute;
+    margin: 165px 40px;
+    font-size: 20px;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px #223927;
+    -moz-box-shadow: 0px 5px 5px #223927;
+    -webkit-box-shadow: 0px 5px 5px #223927;
+}
+#answers{
+    margin: 240px 40px;
+    position: absolute;   
+}
+#answer1, #answer2, #answer3, #answer4{
+                 padding: 5px;
+              height: 50px; 
+          line-height: 50px;
+          width: 60px;
+         background-color: aliceblue;
+        float:left;
+         border-radius: 5px;
+                font-size: 34px;
+          text-align:center;
+            margin-right: 43px;
+         box-shadow: 0px 5px 5px grey;
+         -moz-box-shadow: 0px 5px 5px grey;
+            -webkit-box-shadow: 0px 5px 5px grey;
+}
+#answer1:hover, #answer2:hover, #answer3:hover, #answer4:hover{
+    background-color:#4b4ecc;
+    color:white;
+    cursor:pointer;
+}
+#answer4{
+    margin-right:0;
+}
+#start{
+    padding:15px;
+    background: linear-gradient(to right, #df57e3, 
+    #d81282, #c44ec6, #bf2ce3);
+    width: 100px;
+    position: absolute;    
+    margin: 350px 190px;
+    text-align: center;
+    color:white;
+    border-radius: 5px;   
+    box-shadow: 0px 5px 5px #281036;
+    -moz-box-shadow: 0px 5px 5px #281036;
+    -webkit-box-shadow: 0px 5px 5px #281036;
+}
+#start:hover{
+    background: linear-gradient(to right, #87fa72, 
+    #46f02c, #15d407, #9be66d);
+    color:white;
+    cursor:pointer;
+  }
+#reset{
+    padding:15px;
+    background: linear-gradient(to right, #df57e3, 
+    #d81282, #570358, #bf2ce3);
+    width: 70px;
+    position: absolute;    
+    margin: 300px 190px;
+    text-align: center;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px #281036;
+    -moz-box-shadow: 0px 5px 5px #281036;
+    -webkit-box-shadow: 0px 5px 5px #281036;    
+    display:none;
+}
+#reset:hover, #start:hover{
+    background: linearrgb(180, 93, 215)nt(to right, #57a6e3, 
+    #e01149, #570358, #bf2ce3);
+    cursor:pointer;
+}
+#time{
+    padding:10px;
+    background: linear-gradient(to right, #f095a7, 
+    #bbabb4, #e794e9, #d198df);
+    width: 125px;
+    text-align: center;
+    position: absolute;
+    margin: 400px 430px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px #0b353b;
+    -moz-box-shadow: 0px 5px 5px #0b353b;
+    -webkit-box-shadow: 0px 5px 5px #0b353b;
+    display:none;
+}
+#gameover{
+    padding:5x;
+    line-height: 50px;
+    background: linear-gradient(to right, #e45959, 
+    #e50c29, #d10404, #d53535);
+    color: white;
+    width: 350px;
+    height: 210px;
+    position:absolute;
+    margin: 75px 70px;
+    text-align:center;
+    font-size: 30px; 
+    border-radius: 5px;
+    z-index: 2;
+    display:none;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+    <title>දැනුම යාත්‍රා</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div id="container">
+     
+      <h1 class="gametitle"><u>ගුණ කිරීම​</u></h1>
+     
+      <div id="board">
+        <div id="right">නියමයි</div>
+        <div id="wrong">නැවත​ උත්සාහ කරන්න​</div>
+        <div id="score">ලකුණු: <span id="scoreNumber">0</span></div>
+        <div id="problem"></div>
+        <div id="instruction">උපදෙස්</div>
+        <div id="answers">
+          <div id="answer1"></div>
+          <div id="answer2"></div>
+          <div id="answer3"></div>
+          <div id="answer4"></div>
+        </div>
+        <div id="start">ආරම්භ කරන්න</div>
+
+        <div id="time">වේලාව​: <span id="remainingTime">55</span> sec</div>
+        <div id="gameover">
+          ඔබගේ අවසාන ලකුණු: <span id="finalscore">0</span>
+        </div>
+      </div>
+
+      
+      <div class="player">
+        <audio id="startgame"  controls autoplay loop>
+          <source src="audio/start.mp3" type="audio/mp3" />
+          <source src="audio/start.ogg" type="audio/mp3" />
+          <source src="audio/start.wav" type="audio/mp3"/>
+        </audio>
+      </div>
+      <audio id="lost">
+        <source src="audio/error.mp3" type="audio/mp3" />
+        <source src="audio/error.ogg" type="audio/mp3"/>
+        <source src="audio/error.wav" type="audio/mp3" />
+      </audio>
+      <audio id="win">
+        <source src="audio/correct.mp3" type="audio/mp3"/>
+        <source src="audio/correct.ogg" type="audio/mp3"/>
+        <source src="audio/correct.wav" type="audio/mp3"/>
+      </audio>
+      <audio id="final">
+        <source src="audio/end.mp3" type="audio/mp3"/>
+        <source src="audio/end.ogg" type="audio/mp3" />
+        <source src="audio/end.wav" type="audio/mp3" />
+      </audio>
+    </div>
+
+    
+    <script src="javascript.js"></script>
+  </body>
+</html>
+
